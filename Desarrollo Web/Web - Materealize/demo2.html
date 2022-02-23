@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+     M.toast({html: 'I am a toast!'})
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mi primer Documento</title>
+</head>
+<body bgcolor="white">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Mi Biografía</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="pasatiempo.html">Pasatiempos</a></li>
+                <li><a href="videos.html" target="_blank">Videos</a></li>
+                <li><a href="fotos.html" target="_blank">Fotos</a></li>
+                <li><a href="contactanos.html" class="btn" onclick="M.toast({html: 'Simóm, contactame', completeCallback: function(){alert('Hola wapo!')}})">Contactanos</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+        <p class="aligncenter">
+            <center>
+            <img src="Julian.jpg" alt="Mi foto" width="300" height="300" class="center"/>
+            <figcaption>Apoko no me veo wapo?</figcaption>
+            </center>
+        </p>
+        
+        <div class="divider"></div>
+        <div class="section">
+        <h5>Mi educación</h5>
+        <p>???</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+        <h5>Pasatiempos</h5>
+        <p>???</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+        <h5>Habilidades</h5>
+        <p>???</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+        <h5>Intereses</h5>
+
+        <table class="stripped">
+            <tr>
+                <th rowspan="5">Deportes</th>
+                <td>Natación</td>
+            </tr>
+            <tr>
+                <th>Juegos</th>
+                <td>Overwatch</td>
+            </tr>
+            <tr>
+                <th>Amikis:</th>
+                <td>Las Netas</td>
+            </tr>
+        </table>
+        </div>
+        
+        <aside>
+        <div class="divider"></div>
+        <div class="section">
+        <h5>Noticias Importantes</h5>
+        <ol type="I">
+            <li>Hola 1</li>
+            <li>Hola 2</li>
+            <li>Hola 3</li>
+        </ol>
+        <h5>Noticias Importantes</h5>
+        <ul>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+        </ul>
+        <p>???</p>
+        </div>
+
+        <dl>
+        <dt>Algoritmo</dt>
+            <dd>Mucho texto</dd>
+
+        </dl>
+        </aside>
+    </main>
+    <footer>
+        <address>Calle de la amargura #13</address>
+        <small>&copy; Derechos reservados 2022<a href="mailto:phyzub@gmail.com">Contactame</a></small>
+    </footer>
+</body>
+
+</html>

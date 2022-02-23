@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactanos</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Mi Biografía</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="pasatiempo.html">Pasatiempos</a></li>
+          <li><a href="videos.html" target="_blank">Videos</a></li>
+          <li><a href="fotos.html" target="_blank">Fotos</a></li>
+          <li><a href="contactanos.html">Contactanos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <form name="frmDatos" id="frmDatos" method="post" action="">
+        <fieldset style="width: 1000px;">
+          <legend>Elementos de Formulario:</legend>
+          <table>
+            <tr>
+              <th>
+                <label for="txtNombre">Nombre</label>
+              </th>
+              <td>
+                <input type="text" name="txtNombre" id="txtNombre" placeholder="Pon tu nombre wapo"/>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <label for="txtPaterno">Paterno</label>
+              </th>
+              <td>
+                <input type="text" name="txtPaterno" id="txtPaterno" placeholder="Pon tu apellido paterno paterno"/>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <label for="txtMaterno">Materno</label>
+              </th>
+              <td>
+                <input type="text" name="txtMaterno" id="txtMaterno" placeholder="Pon tu apellido materno wapo"/>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <strong>Datos Generales</strong>
+              </td>
+              <th>
+            </tr>
+              <tr>
+                <td>
+                <label for="entidad">Entidad Federativa</label>
+                </td>
+              <td>
+                <input type="text" name="entidad" id="entidad" list="entidades"/>
+                <datalist id="entidades">
+                  <option>Oaxaca</option>
+                  <option>Chiapas</option>
+                  <option>Puebla</option>
+                  <option>Yucatan</option>
+                </datalist>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <label for="municipio">Municipios</label>
+                </td>
+              <td>
+                <input type="text" name="municipios" id="municipios" list="municipios"/>
+                <datalist id="municipios">
+                  <option>Cuautitlan Izcalli</option>
+                  <option>Tepo</option>
+                  <option>Tlane</option>
+                  <option>Naucalpan</option>
+                </datalist>
+              </td>
+              </tr>
+          <tr>
+          <td>Range</td>
+            <td><input type="range" name="txtRango" min="0" max="100"></td>
+          </tr>  
+          <tr>
+            <td>Genero</td>
+              <td><p>
+                <label>
+                  <input name="group1" type="radio" checked />
+                  <span>Mujer</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="group1" type="radio" />
+                  <span>Hombre</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input class="with-gap" name="group1" type="radio"  />
+                  <span>Otros</span>
+                </label>
+              </p>
+              </td>
+            </tr>
+          <tr>
+            <td>Calendario</td>
+              <td><input type="date" name="date"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Enviar"></td>
+          </tr>  
+          </table>
+        </fieldset>
+    
+      </form>
+    </article>
+  </main>
+  <footer>
+    <address>Calle de la amargura #13</address>
+    <small>&copy; Derechos reservados 2022<a href="mailto:phyzub@gmail.com">Contactame</a></small>
+  </footer>
+</body>
+
+</html>
